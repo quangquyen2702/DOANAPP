@@ -26,6 +26,12 @@
         android:layout_height="wrap_content"
         android:text="Click nhanh"
         android:layout_gravity="center">
-
     </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click đây"
+        android:layout_gravity="center">
+    </Button>
+
 </LinearLayout>

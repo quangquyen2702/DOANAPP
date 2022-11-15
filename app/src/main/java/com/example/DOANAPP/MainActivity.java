@@ -11,14 +11,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         addEvent();
-        Link();
+        linkEvent();
+
     }
 
-    private void Link() {
+    private void linkEvent() {
     }
+
 
     private void addEvent() {
-
+        {}
     }
 
 }

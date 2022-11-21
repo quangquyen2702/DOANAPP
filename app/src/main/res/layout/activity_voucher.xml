@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".voucher"
-    android:orientation="vertical"
-    android:background="@drawable/background">
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="My Voucher"
+        android:text="My voucher"
         android:textSize="20sp"
         android:textColor="#ffffff"
         android:textStyle="bold"
-        android:layout_gravity="center"
-        android:layout_marginTop="30dp">
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center">
     </TextView>
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,23 +25,39 @@
     <EditText
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:hint="Typing vouvher code"
-        android:padding="10dp"
-        android:layout_marginLeft="30dp"
+        android:text="Typing voucher code"
+        android:textSize="20sp"
+        android:textColor="#535353"
         android:background="@drawable/bgredittext"
-        android:textSize="18sp"
-        >
-    </EditText>
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"></EditText>
         <Button
-            android:layout_width="110dp"
-            android:layout_height="55dp"
-            android:backgroundTint="@drawable/bgrbutton"
-            android:layout_marginTop="30dp"
-            android:layout_marginLeft="10dp"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bgrbutton"
             android:text="Apply"
-            android:textSize="20sp"
-            android:padding="5dp">
-        </Button>
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="20dp"></Button>
     </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/bgredittext"
+        android:outlineSpotShadowColor="@color/black"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="FREE SHIP"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:background="@drawable/bgrbutton"
+            >
+        </TextView>
+    </LinearLayout>
+
 </LinearLayout>

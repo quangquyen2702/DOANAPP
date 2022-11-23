@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUp">
+
+    <ImageView
+        android:layout_width="331dp"
+        android:layout_height="104dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="205dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#FFFFFF"
+            android:gravity="center"
+            android:text="Sign Up"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="205dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#FFFFFF"
+            android:gravity="center"
+            android:text="Log In"
+            android:textColor="#B8ADAD"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="150dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="2dp"
+            android:backgroundTint="@color/black"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="150dp"
+            android:layout_height="2dp"
+           android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:background="?android:attr/listDivider" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edt_firstname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/duongvien_goctron"
+        android:hint="@string/first"
+        android:inputType="textPersonName"
+        android:textColor="#757575"
+        android:textSize="17sp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/edt_lastname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/duongvien_goctron"
+        android:hint="@string/last"
+        android:inputType="textPersonName"
+        android:textColor="#757575"
+        android:textSize="17sp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/duongvien_goctron"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textColor="#757575"
+        android:textSize="17sp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/duongvien_goctron"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textColor="#757575"
+        android:textSize="17sp">
+
+    </EditText>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="At least 8 charaters, 1 uppercase letter, 1 number, 1 symbol"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textSize="13sp"
+        android:textColor="@color/black">
+
+    </TextView>
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/black"
+        android:text="sign up"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="18sp">
+
+    </Button>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:gravity="center"
+        android:layout_marginTop="5dp">
+
+    </TextView>
+    <Button
+        android:id="@+id/btn_google"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="Continue with Google"
+        android:drawableLeft="@drawable/google"
+        android:backgroundTint="@color/cardview_light_background"
+        android:textColor="@color/black"
+        android:textSize="15sp">
+
+    </Button>
+    <Button
+        android:id="@+id/btn_fb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="Continue with Facebook"
+        android:drawableLeft="@drawable/facebook"
+        android:backgroundTint="@color/cardview_light_background"
+        android:textColor="@color/black"
+        android:textSize="15sp">
+
+    </Button>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="By signing up, you agree to the Terms of Service and Primary Policy"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="5dp"
+        android:textSize="11sp"
+        android:textColor="@color/black"
+        />
+
+
+</LinearLayout>

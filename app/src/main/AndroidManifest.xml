@@ -17,7 +17,14 @@
             android:name=".voucher"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".forgot_pwd"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".LogIn"
             android:exported="false" />
         <activity
             android:name=".changepassword"
@@ -33,7 +40,21 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
         </activity>
+        <activity
+            android:name=".SignUp"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
     </application>
 
 </manifest>

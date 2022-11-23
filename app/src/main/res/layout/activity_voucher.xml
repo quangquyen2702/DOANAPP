@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".voucher"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="65dp"
+       android:orientation="horizontal">
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:backgroundTint="#031824"
+        android:drawableLeft="@drawable/ic_baseline_arrow_back_ios_24">
+    </Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My voucher"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp">
+    </TextView>
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/txt_vouchercode"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Typing voucher code"
+        android:textSize="20sp"
+        android:textColor="#535353"
+        android:background="@drawable/bgredittext"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp">
+    </EditText>
+        <Button
+            android:id="@+id/btn_apply"
+            android:layout_width="100dp"
+            android:layout_height="55dp"
+            android:backgroundTint="#031824"
+            android:text="Apply"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"></Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/bgrsection"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="FREE SHIP"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:background="@drawable/bgrbutton"
+            >
+        </TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           android:text="All payment mehthods"
+            android:textSize="20sp"
+            android:textColor="#031824"
+            android:textStyle="bold"
+            android:padding="5dp">
+        </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Valid till 25.10.2022"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:padding="5dp">
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/bgrsection"
+        android:outlineSpotShadowColor="@color/black"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="FREE SHIP"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:background="@drawable/bgrbutton"
+            >
+        </TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="All payment mehthods"
+                android:textSize="20sp"
+                android:textColor="#031824"
+                android:textStyle="bold"
+                android:padding="5dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:text="Valid till 25.10.2022"
+                android:textColor="#090909"
+                android:textSize="20sp"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">DOANAPP</string>
-    <string name="text_size_color"><b>Size:</b>  39 <b>Color:</b>  Red.</string>
     <string name="first">First Name</string>
     <string name="last">Last Name</string>
     <string name="email">Email Address</string>
@@ -11,4 +10,16 @@
     <string name="back">Back</string>
     <string name="OTP">OTP</string>
     <string name="confirm_password">Confirm Password</string>
+
+    <string name="text_size_color">
+    <font color="#013824"><b>Size:</b> 39 </font><b>Color:</b><font color="Red"> Red</font>
+    </string>
+    <string name="product_detail"><font color="#031824"><b>Size:</b></font> 39. \n<font color="#031824"><b>Color:</b></font> <font color="red">Red.</font>\n<font color="#031824"><b>Price:</b></font> <font color="blue">$1000 </font>
+    </string>
+    <string name="payment_detail">
+    <font color="#031824"><b>Quanitity:</b></font>\n    <font color="#031824"><b>Price:</b></font>\n    <font color="#031824"><b>Discount:</b></font>\n    <font color="#031824"><b>Shipping fee:</b></font>\n    <font color="#031824"><b>Total:</b></font>
+    </string>
+    <string name="payment_detail1">
+    <font><b>1</b></font>\n    <font><b>$100</b></font>\n    <font><b>0</b></font>\n    <font><b>0</b></font>\n    <font><b>$100</b></font>
+    </string>
 </resources>

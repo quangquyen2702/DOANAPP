@@ -58,20 +58,6 @@
         android:textColor="@color/black"
         android:textStyle="bold"
         android:gravity="center"/>
-    <EditText
-        android:id="@+id/edt_emailorphone"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="30dp"
-        android:background="@drawable/duongvien_goctron"
-        android:hint="@string/email_or_phone"
-        android:inputType="text"
-        android:textColor="#757575"
-        android:textSize="17sp">
-
-    </EditText>
     <Button
         android:id="@+id/btn_resetPwd"
         android:layout_width="match_parent"

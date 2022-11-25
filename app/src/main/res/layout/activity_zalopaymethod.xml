@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".zalopaymethod"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/zalopay"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/zalo.guide"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+            android:gravity="center"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/zalo.sure"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+            android:gravity="center"/>
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/edt_address.ward"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/duongvien_goctron"
+            android:hint="@string/zalo.enterphone"
+            android:inputType="text"
+            android:textSize="17sp">
+        </EditText>
+    <Button
+        android:id="@+id/btn_zalo.continue"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#031824"
+        android:text="Continue"
+        android:textSize="17sp"/>
+</LinearLayout>

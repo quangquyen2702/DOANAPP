@@ -50,6 +50,7 @@
     <string name="paymethod.zalosel">Select</string>
     <string name="paymethod.cart">Credit/Debit card</string>
     <string name="paymethod.cartsel">Select</string>
-    <string name="paymethod.cod">COD</string>
     <string name="paymethod.codsel">Select</string>
+    <string name="paymethod.cod">COD</string>
+
 </resources>

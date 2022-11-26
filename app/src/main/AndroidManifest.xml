@@ -23,15 +23,22 @@
             android:name=".checkout"
             android:exported="false" />
         <activity
-            android:name=".forgot_pwd"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
+            android:name=".confirm_OPT"
+            android:exported="true">
+
+
         </activity>
+
+
+        <activity
+            android:name=".forgot_pwd"
+            android:exported="true">
+        </activity>
+
         <activity
             android:name=".LogIn"
-            android:exported="false" />
+            android:exported="true">
+        </activity>
         <activity
             android:name=".changepassword"
             android:exported="false" />
@@ -47,6 +54,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
+
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -54,6 +62,9 @@
         <activity
             android:name=".SignUp"
             android:exported="true">
+
+
+
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

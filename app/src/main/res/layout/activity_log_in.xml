@@ -18,6 +18,7 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/btn_signup1"
             android:layout_width="205dp"
             android:layout_height="80dp"
             android:backgroundTint="#FFFFFF"
@@ -27,6 +28,7 @@
             android:textSize="20sp" />
 
         <Button
+            android:id="@+id/btn_login1"
             android:layout_width="205dp"
             android:layout_height="80dp"
             android:backgroundTint="#FFFFFF"
@@ -151,15 +153,25 @@
 
     </Button>
     <TextView
-        android:id="@+id/btn_fb"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="By signing up, you agree to the Terms of Service and Primary Policy"
-        android:layout_marginLeft="30dp"
+        android:text="OR"
+        android:gravity="center"
+        android:layout_marginTop="5dp">
+
+    </TextView>
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/black"
+        android:text="create new account"
+        android:layout_marginTop="10dp"
         android:layout_marginRight="30dp"
-        android:layout_marginTop="5dp"
-        android:textSize="11sp"
-        android:textColor="@color/black"
-        />
+        android:layout_marginLeft="30dp"
+        android:textSize="18sp">
+
+    </Button>
+
 
 </LinearLayout>

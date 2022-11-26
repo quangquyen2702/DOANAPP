@@ -105,13 +105,13 @@
         <Button
             android:id="@+id/btn_login"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="55dp"
             android:backgroundTint="@color/black"
             android:text="Log In"
             android:layout_marginTop="20dp"
             android:layout_marginRight="30dp"
             android:layout_marginLeft="30dp"
-            android:textSize="15sp">
+            android:textSize="17sp">
 
         </Button>
         <View

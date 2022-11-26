@@ -14,10 +14,13 @@
         android:theme="@style/Theme.DOANAPP"
         tools:targetApi="31">
         <activity
+            android:name=".Voucher"
+            android:exported="false" />
+        <activity
             android:name=".mypurchase"
             android:exported="false" />
         <activity
-            android:name=".voucher"
+            android:name=".checkout"
             android:exported="false" />
         <activity
             android:name=".forgot_pwd"
@@ -36,7 +39,7 @@
             android:name=".editaccount"
             android:exported="false" />
         <activity
-            android:name=".checkout"
+            android:name=".My_voucher"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

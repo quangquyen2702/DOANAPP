@@ -8,4 +8,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="action_bottom_nav">#FF5722</color>
+    <color name="darkblue">#031824</color>
+    <color name="grey">#BFBFBF</color>
 </resources>

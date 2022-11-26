@@ -1,4 +1,4 @@
-package models;
+package com.example.DOANAPP.models;
 
 public class paymethod {
     int paymethodThumb;

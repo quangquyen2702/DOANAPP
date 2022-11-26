@@ -14,7 +14,7 @@
         android:theme="@style/Theme.DOANAPP"
         tools:targetApi="31">
         <activity
-            android:name=".checkout"
+            android:name=".mypurchase"
             android:exported="false" />
         <activity
             android:name=".voucher"
@@ -36,7 +36,7 @@
             android:name=".editaccount"
             android:exported="false" />
         <activity
-            android:name=".mypurchase"
+            android:name=".checkout"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

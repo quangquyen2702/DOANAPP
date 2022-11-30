@@ -19,6 +19,7 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/btn_signup1"
             android:layout_width="205dp"
             android:layout_height="80dp"
             android:backgroundTint="#FFFFFF"
@@ -28,6 +29,7 @@
             android:textSize="20sp" />
 
         <Button
+            android:id="@+id/btn_login1"
             android:layout_width="205dp"
             android:layout_height="80dp"
             android:backgroundTint="#FFFFFF"
@@ -120,25 +122,36 @@
         android:textSize="17sp">
 
     </EditText>
-    <TextView
-        android:layout_width="match_parent"
+    <LinearLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="At least 8 charaters, 1 uppercase letter, 1 number, 1 symbol"
+        android:orientation="horizontal"
         android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
         android:layout_marginTop="5dp"
-        android:textStyle="bold"
-        android:textSize="13sp"
-        android:textColor="@color/black">
+        android:layout_marginBottom="5dp"
+        >
 
-    </TextView>
+        <CheckBox
+            android:id="@+id/checkboxAccept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="I accept the Term of Service and Privacy Policy."
+            android:textSize="15sp"
+            android:textStyle="italic"
+            android:textColor="#000000"
+            />
+    </LinearLayout>
     <Button
-        android:id="@+id/signup"
+        android:id="@+id/btn_signup"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:backgroundTint="@color/black"
         android:text="sign up"
-        android:layout_marginTop="10dp"
         android:layout_marginRight="30dp"
         android:layout_marginLeft="30dp"
         android:textSize="18sp">
@@ -180,16 +193,8 @@
         android:textSize="15sp">
 
     </Button>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="By signing up, you agree to the Terms of Service and Primary Policy"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:layout_marginTop="5dp"
-        android:textSize="11sp"
-        android:textColor="@color/black"
-        />
+
+
 
 
 </LinearLayout>

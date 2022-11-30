@@ -51,7 +51,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Please enter the email address that is associed with your account."
-        android:textSize="19dp"
+        android:textSize="15dp"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"

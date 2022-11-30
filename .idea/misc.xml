@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/DOANAPP/app/src/main/res/layout/activity_mypurchase.xml" value="0.34057971014492755" />
+        <entry key="..\:/AndroidStudioProjects/DOANAPP/app/src/main/res/layout/activity_sign_up.xml" value="0.2875905797101449" />
+        <entry key="..\:/AndroidStudioProjects/DOANAPP/app/src/main/res/layout/item_mypurchase_list.xml" value="0.34057971014492755" />
         <entry key="..\:/Users/QUANG QUYEN/AndroidStudioProjects/DOANAPP/app/src/main/res/drawable/bgrbutton.xml" value="0.1" />
         <entry key="..\:/Users/QUANG QUYEN/AndroidStudioProjects/DOANAPP/app/src/main/res/drawable/bgredittext.xml" value="0.1605" />
         <entry key="..\:/Users/QUANG QUYEN/AndroidStudioProjects/DOANAPP/app/src/main/res/drawable/bgrsection.xml" value="0.228" />

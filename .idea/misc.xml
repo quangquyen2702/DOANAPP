@@ -19,9 +19,9 @@
         <entry key="..\:/Users/QUANG QUYEN/AndroidStudioProjects/DOANAPP/app/src/main/res/layout/action_bar_ordersuccess.xml" value="0.346875" />
         <entry key="..\:/Users/QUANG QUYEN/AndroidStudioProjects/DOANAPP/app/src/main/res/layout/action_bar_paymentmethod.xml" value="0.346875" />
         <entry key="..\:/Users/QUANG QUYEN/AndroidStudioProjects/DOANAPP/app/src/main/res/layout/activity_address.xml" value="0.346875" />
-        <entry key="..\:/Users/QUANG QUYEN/AndroidStudioProjects/DOANAPP/app/src/main/res/layout/activity_cart.xml" value="0.67" />
+        <entry key="..\:/Users/QUANG QUYEN/AndroidStudioProjects/DOANAPP/app/src/main/res/layout/activity_cart.xml" value="0.15925925925925927" />
         <entry key="..\:/Users/QUANG QUYEN/AndroidStudioProjects/DOANAPP/app/src/main/res/layout/activity_changepassword.xml" value="0.3578125" />
-        <entry key="..\:/Users/QUANG QUYEN/AndroidStudioProjects/DOANAPP/app/src/main/res/layout/activity_checkout.xml" value="0.33" />
+        <entry key="..\:/Users/QUANG QUYEN/AndroidStudioProjects/DOANAPP/app/src/main/res/layout/activity_checkout.xml" value="0.25" />
         <entry key="..\:/Users/QUANG QUYEN/AndroidStudioProjects/DOANAPP/app/src/main/res/layout/activity_confirm_opt.xml" value="0.3625" />
         <entry key="..\:/Users/QUANG QUYEN/AndroidStudioProjects/DOANAPP/app/src/main/res/layout/activity_editaccount.xml" value="0.33" />
         <entry key="..\:/Users/QUANG QUYEN/AndroidStudioProjects/DOANAPP/app/src/main/res/layout/activity_forgot_pwd.xml" value="0.3625" />
@@ -29,8 +29,14 @@
         <entry key="..\:/Users/QUANG QUYEN/AndroidStudioProjects/DOANAPP/app/src/main/res/layout/activity_main.xml" value="0.1762917933130699" />
         <entry key="..\:/Users/QUANG QUYEN/AndroidStudioProjects/DOANAPP/app/src/main/res/layout/activity_my_voucher.xml" value="0.18541666666666667" />
         <entry key="..\:/Users/QUANG QUYEN/AndroidStudioProjects/DOANAPP/app/src/main/res/layout/activity_mypurchase.xml" value="0.25" />
+        <entry key="..\:/Users/QUANG QUYEN/AndroidStudioProjects/DOANAPP/app/src/main/res/layout/activity_paymentmethod.xml" value="0.33967391304347827" />
         <entry key="..\:/Users/QUANG QUYEN/AndroidStudioProjects/DOANAPP/app/src/main/res/layout/activity_voucher.xml" value="0.2893258426966292" />
+        <entry key="..\:/Users/QUANG QUYEN/AndroidStudioProjects/DOANAPP/app/src/main/res/layout/item_cart_list.xml" value="0.33" />
+        <entry key="..\:/Users/QUANG QUYEN/AndroidStudioProjects/DOANAPP/app/src/main/res/layout/item_checkout_list.xml" value="0.33" />
+        <entry key="..\:/Users/QUANG QUYEN/AndroidStudioProjects/DOANAPP/app/src/main/res/layout/item_mypurchase_list.xml" value="0.33" />
         <entry key="..\:/Users/QUANG QUYEN/AndroidStudioProjects/DOANAPP/app/src/main/res/layout/item_voucher_list.xml" value="0.3458333333333333" />
+        <entry key="..\:/Users/QUANG QUYEN/AndroidStudioProjects/DOANAPP/app/src/main/res/layout/layout_popup_delivery.xml" value="0.33" />
+        <entry key="..\:/Users/QUANG QUYEN/AndroidStudioProjects/DOANAPP/app/src/main/res/layout/layout_popup_myvoucher.xml" value="0.3614583333333333" />
       </map>
     </option>
   </component>

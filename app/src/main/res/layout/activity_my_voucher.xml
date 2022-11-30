@@ -36,11 +36,13 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+
         android:orientation="horizontal"/>
     <ListView
         android:id="@+id/lv_voucher"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:divider="@null"
         android:layout_margin="10dp">
     </ListView>
 </LinearLayout>

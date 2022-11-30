@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:weightSum="10"
+        android:background="@drawable/bgrsection"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:paddingVertical="10dp"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/imvThumb_checkout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:src="@drawable/puma" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4.5"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtName_checkout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="fdvdvd"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/nunito_medium"/>
+
+            <TextView
+                android:id="@+id/txtType_checkout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fashion shoes"
+                android:textSize="13dp"
+                android:fontFamily="@font/nunito_medium"/>
+
+            <TextView
+                android:id="@+id/txtPrice_checkout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="$170.00"
+                android:textSize="15dp"
+                android:fontFamily="@font/nunito_medium"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="Qty:"
+                android:gravity="bottom"
+                android:fontFamily="@font/nunito_medium"
+                android:textSize="13dp"
+                android:paddingBottom="10dp"/>
+            <TextView
+                android:id="@+id/txtquantity"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:text="1"
+                android:gravity="bottom"
+                android:textSize="13dp"
+                android:fontFamily="@font/nunito_medium"
+                android:paddingBottom="10dp"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

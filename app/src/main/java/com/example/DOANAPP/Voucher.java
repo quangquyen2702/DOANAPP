@@ -1,5 +1,4 @@
 package com.example.DOANAPP;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -10,7 +9,7 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
-import adapter.voucher_adapter;
+import com.example.DOANAPP.adapter.voucher_adapter;
 import com.example.DOANAPP.models.Vouchers;
 
 public class Voucher extends AppCompatActivity
@@ -49,13 +48,13 @@ public class Voucher extends AppCompatActivity
 
     private void addEvent()
     {
-        btnback.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View view) {
-                finish();
-            }
-        });
+//        btnback.setOnClickListener(new View.OnClickListener()
+//        {
+//            @Override
+//            public void onClick(View view) {
+//                finish();
+//            }
+//        });
     }
 
     private void linkViews()

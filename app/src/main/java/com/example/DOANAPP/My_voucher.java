@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
-import adapter.voucher_adapter;
+import com.example.DOANAPP.adapter.voucher_adapter;
 import com.example.DOANAPP.models.Vouchers;
 
 public class My_voucher extends AppCompatActivity implements com.example.DOANAPP.Interface.MyBtnVoucherClick {

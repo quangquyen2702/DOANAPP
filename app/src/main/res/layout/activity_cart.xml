@@ -7,7 +7,6 @@
     tools:context=".cart"
     android:background="@drawable/background"
     android:orientation="vertical">
-    //bar
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="65dp"
@@ -33,256 +32,72 @@
             android:fontFamily="@font/nunito_medium">
         </TextView>
     </LinearLayout>
-    // SP1
-    <LinearLayout
+
+    <ScrollView
+        android:id="@+id/scrollView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/bgrsection">
-     <ImageView
-         android:layout_width="30dp"
-         android:layout_height="30dp"
-         android:src="@drawable/ic_baseline_radio_button_unchecked_24"
-         android:layout_gravity="center"
-         android:layout_marginLeft="10dp">
-     </ImageView>
-        <LinearLayout
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:orientation="horizontal">
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:src="@drawable/ic_baseline_image_24">
-            </ImageView>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Giày Sneaker"
-                    android:textStyle="bold"
-                    android:textSize="20sp"
-                    android:textColor="#031428">
-                </TextView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/product_detail"></TextView>>
-            </LinearLayout>
-        </LinearLayout>
+        android:layout_height="450dp"
+        android:paddingHorizontal="20dp"
+        android:layout_marginTop="20dp">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_margin="5dp"
-            android:gravity="center">
-            <ImageButton
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:backgroundTint="#ffffff"
-                android:src="@drawable/ic_baseline_minus_24"
-                android:layout_gravity="center">
-            </ImageButton>
-            <TextView
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcvListCart"
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:text="1"
-                android:gravity="center">
-            </TextView>
-            <ImageButton
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:backgroundTint="#ffffff"
-                android:src="@drawable/ic_baseline_add_24"
-                android:layout_gravity="center">
-            </ImageButton>
-        </LinearLayout>
-    </LinearLayout>
-    //SP2
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:background="@drawable/bgrsection"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="20dp">
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:src="@drawable/ic_baseline_check_circle_outline_24"
-            android:layout_gravity="center"
-            android:layout_marginLeft="10dp">
-        </ImageView>
-        <LinearLayout
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:orientation="horizontal">
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:src="@drawable/ic_baseline_image_24">
-            </ImageView>
-            <LinearLayout
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/txtBlank"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Giày Sneaker 1"
-                    android:textStyle="bold"
-                    android:textSize="20sp"
-                    android:textColor="#031428">
-                </TextView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/product_detail"></TextView>>
-            </LinearLayout>
+                android:text="You have nothing in your cart"
+                android:textColor="@color/darkblue"
+                android:fontFamily="@font/nunito_medium"
+
+                android:gravity="center_horizontal"
+                android:textSize="18sp"
+                android:visibility="invisible"
+                />
         </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_margin="5dp"
-            android:gravity="center">
-            <ImageButton
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:backgroundTint="#ffffff"
-                android:src="@drawable/ic_baseline_minus_24"
-                android:layout_gravity="center">
-            </ImageButton>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:text="1"
-                android:gravity="center">
-            </TextView>
-            <ImageButton
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:backgroundTint="#ffffff"
-                android:src="@drawable/ic_baseline_add_24"
-                android:layout_gravity="center">
-            </ImageButton>
-        </LinearLayout>
-    </LinearLayout>
-    //SP3
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:background="@drawable/bgrsection"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="20dp">
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:src="@drawable/ic_baseline_radio_button_unchecked_24"
-            android:layout_gravity="center"
-            android:layout_marginLeft="10dp">
-        </ImageView>
-        <LinearLayout
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:orientation="horizontal">
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:src="@drawable/ic_baseline_image_24">
-            </ImageView>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Giày Sneaker 2"
-                    android:textStyle="bold"
-                    android:textSize="20sp"
-                    android:textColor="#031428">
-                </TextView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/product_detail"></TextView>>
-            </LinearLayout>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_margin="5dp"
-            android:gravity="center">
-            <ImageButton
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:backgroundTint="#ffffff"
-                android:src="@drawable/ic_baseline_minus_24"
-                android:layout_gravity="center">
-            </ImageButton>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:text="1"
-                android:gravity="center">
-            </TextView>
-            <ImageButton
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:backgroundTint="#ffffff"
-                android:src="@drawable/ic_baseline_add_24"
-                android:layout_gravity="center">
-            </ImageButton>
-        </LinearLayout>
-    </LinearLayout>
-    //payment detail
+    </ScrollView>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="70dp">
+    <ImageView
+        android:id="@+id/imvTickAll"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="20dp"
+            android:src="@drawable/ic_baseline_check_box_outline_blank_24"
+        android:layout_gravity="center"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
     <TextView
+        android:id="@+id/txtAllProduct"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="5dp"
-        android:text="Payment detail"
-        android:textSize="20sp"
+        android:layout_height="match_parent"
+        android:text="All Product"
+        android:fontFamily="@font/nunito_medium"
         android:textColor="#031824"
-        android:textStyle="bold"
-        android:paddingLeft="10dp">
-    </TextView>
-    <LinearLayout
+        android:textSize="3mm"
+
+        android:layout_marginLeft="10dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/txtTotal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/bgrsection"
-        android:layout_margin="5dp"
-        android:padding="10dp">
-        <TextView
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:text="@string/payment_detail"
-            android:textSize="20sp">
-        </TextView>
-        <TextView
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:text="@string/payment_detail1"
-            android:textSize="20sp"
-            android:textColor="#151515">
-        </TextView>
-    </LinearLayout>
+        android:gravity="right"
+        android:text="Total: 10$"
+        android:textColor="#031824"
+        android:textSize="24sp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/nunito_medium"/>
+</LinearLayout>
     <Button
         android:id="@+id/btn_checkout"
         android:layout_width="200dp"

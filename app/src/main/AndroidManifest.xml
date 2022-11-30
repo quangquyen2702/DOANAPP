@@ -2,6 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.DOANAPP">
+    <meta-data
+        android:name="com.google.android.gms.ads.APPLICATION_ID"
+        android:value="ca-app-pub-7728575000888228~1656294696"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -13,14 +19,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DOANAPP"
         tools:targetApi="31">
+
         <activity
-            android:name=".Voucher"
+            android:name=".editaccount"
             android:exported="false" />
         <activity
             android:name=".mypurchase"
             android:exported="false" />
+
         <activity
-            android:name=".checkout"
+            android:name=".address"
+            android:exported="false" />
+        <activity
+            android:name=".cart"
             android:exported="false" />
         <activity
             android:name=".forgot_pwd"
@@ -36,10 +47,10 @@
             android:name=".changepassword"
             android:exported="false" />
         <activity
-            android:name=".editaccount"
+            android:name=".My_voucher"
             android:exported="false" />
         <activity
-            android:name=".My_voucher"
+            android:name=".checkout"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

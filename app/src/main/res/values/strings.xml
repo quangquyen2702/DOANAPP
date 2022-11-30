@@ -20,7 +20,7 @@
     <font color="#031824"><b>Quanitity:</b></font>\n    <font color="#031824"><b>Price:</b></font>\n    <font color="#031824"><b>Discount:</b></font>\n    <font color="#031824"><b>Shipping fee:</b></font>\n    <font color="#031824"><b>Total:</b></font>
     </string>
     <string name="payment_detail1">
-    <font><b>1</b></font>\n    <font><b>$100</b></font>\n    <font><b>0</b></font>\n    <font><b>0</b></font>\n    <font><b>$100</b></font>
+    <font><b>5</b></font>\n    <font><b>370000</b></font>\n    <font><b>0</b></font>\n    <font><b>0</b></font>\n    <font><b>370000</b></font>
     </string>
 
     <string name="action_home">Home</string>

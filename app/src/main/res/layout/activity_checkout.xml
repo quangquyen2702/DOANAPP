@@ -30,14 +30,24 @@
             android:layout_marginLeft="100dp">
         </TextView>
     </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:weightSum="10">
         <TextView
             android:layout_width="wrap_content"
-            android:layout_weight="7"
+            android:layout_weight="9"
             android:layout_height="wrap_content"
             android:text="Delivery address"
             android:padding="10dp"
@@ -45,17 +55,18 @@
             android:textColor="#031824"
             android:textStyle="bold">
         </TextView>
-        <Button
+        <TextView
             android:id="@+id/btn_editAdd"
             android:layout_width="50dp"
             android:layout_height="wrap_content"
-            android:layout_weight="3"
+            android:layout_weight="1"
             android:backgroundTint="#ffffff"
             android:textColor="#142AA1"
             android:layout_marginRight="5dp"
             android:text="Edit"
+            android:textSize="20sp"
             android:textStyle="bold">
-        </Button>
+        </TextView>
     </LinearLayout>
     <TextView
         android:layout_width="match_parent"
@@ -80,34 +91,12 @@
         android:textStyle="bold"
         android:padding="10dp">
     </TextView>
-    <LinearLayout
+    <ListView
+        android:id="@+id/lvproduct_checkout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-    <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:src="@drawable/ic_baseline_image_24">
-    </ImageView>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Giày Sneaker 1"
-            android:textStyle="bold"
-            android:textSize="20sp"
-            android:textColor="#031428">
-        </TextView>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/product_detail"></TextView>>
-        </LinearLayout>
+        android:layout_height="300dp">
+    </ListView>
 
-    </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -125,6 +114,7 @@
         </TextView>
 
         <Button
+            android:id="@+id/btn_paymentmethod"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginEnd="5dp"
@@ -155,12 +145,109 @@
             android:text="Momo">
         </Button>
     </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/sector_line">
+            </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Standard delivery"
+                    android:paddingLeft="10dp"
+                    android:textSize="20sp"
+                    android:textColor="#031824"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtPriceDelivery"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_medium"
+                    android:text="$111"
+                    android:textColor="@color/darkblue"
+                    android:textSize="15dp"
+                   android:gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp">
+
+                <ImageView
+                    android:id="@+id/imvDelivery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:paddingHorizontal="-15dp"
+                    android:src="@drawable/delivery_icon"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Est. Arrival: 31 Nov - 5 Dec"
+                    android:textColor="@color/darkblue"
+                    android:fontFamily="@font/nunito_medium"
+                    android:textSize="15dp"
+                    android:layout_marginStart="5dp"
+                    />
+                <TextView
+                    android:id="@+id/txtEditDelivery"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="EDIT"
+                    android:textColor="@color/darkblue"
+                    android:textSize="18dp"
+                    android:gravity="right"
+                    android:fontFamily="@font/nunito_medium"
+                    />
+            </LinearLayout>
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="5dp"
         android:layout_marginTop="5dp"
         android:src="@drawable/sector_line">
     </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bgredittext"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="15dp"
+                android:padding="15dp"
+                android:elevation="10dp"
+                android:gravity="center_vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Enter voucher code"
+                    android:textSize="17sp"
+                    android:fontFamily="@font/nunito_medium"
+                    android:textColor="@color/darkblue"
+                    />
+                <TextView
+                    android:id="@+id/txtRedeem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_medium"
+                    android:text="Redeem"
+                    android:textSize="18sp"
+                    android:gravity="right"/>
+
+            </LinearLayout>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -169,7 +256,8 @@
         android:textSize="20sp"
         android:textColor="#031824"
         android:textStyle="bold"
-        android:paddingLeft="10dp">
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp">
     </TextView>
     <LinearLayout
         android:layout_width="match_parent"
@@ -205,5 +293,7 @@
         android:layout_marginTop="20dp"
         >
     </Button>
+        </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>
